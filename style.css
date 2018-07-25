@@ -96,3 +96,33 @@ a:hover {
 .space img  {
   padding: 10px 5px;
 }
+
+#sidebar {
+  position: fixed;
+  width: 300px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #967577;
+  }
+
+
+#page-content {
+  margin-left: 300px;
+}
+
+.btn-rose {
+  background-color: white;
+  padding: 20px 20px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+  margin: 50px auto;
+  width: 150px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.btn-rose:hover {
+  color: white;
+  background-color: grey;
+}
