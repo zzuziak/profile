@@ -99,7 +99,7 @@ a:hover {
 
 #sidebar {
   position: fixed;
-  width: 300px;
+  width: 100px;
   left: 0;
   top: 0;
   bottom: 0;
@@ -108,18 +108,21 @@ a:hover {
 
 
 #page-content {
-  margin-left: 300px;
+  margin-left: 100px;
 }
 
-.btn-rose {
+a.btn-rose {
   background-color: white;
-  padding: 20px 20px;
+  padding: 20px 50px;
   text-align: center;
   border-radius: 5px;
   box-shadow: 1px 1px rgba(0, 0, 0, 0.1);
-  margin: 50px auto;
-  width: 150px;
   font-family: 'Raleway', sans-serif;
+}
+
+.button-margin {
+  margin: 50px 40px;
+  width: 300px;
 }
 
 .btn-rose:hover {
