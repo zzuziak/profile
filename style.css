@@ -1,0 +1,98 @@
+body {
+  background-color: #E0E0E0;
+  color: ;
+  font-family: 'Sunflower', sans-serif;
+  color: rgb(50, 50, 50);
+  font-size: 16px;
+  line-height: 20px;
+}
+
+h1, h2 {
+  font-family: 'Raleway', sans-sans-serif;
+  color: rgb(10, 10, 10)
+}
+
+h1 {
+  font-size: 34px;
+  color: black;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 100;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+a {
+  color: rgb(50, 50, 50);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #40E0D0;
+  text-decoration: bold;
+  transition-delay: 0.05s;
+}
+
+.container {
+  margin: 0 auto;
+  width: 500px;
+}
+
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card {
+  background-color: rgb(250, 250, 250);
+  padding: 25px;
+  margin: 20px 0;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-radius: 4px;
+}
+
+.img-round {
+  border-radius: 50%;
+}
+
+.btn-mint {
+  background-color: #40E0D0;
+  border-radius: 10px;
+  padding: 8px 15px;
+}
+
+.btn-mint:hover {
+  background-color: white;
+  border: 1px solid #40E0D0;
+  color: #40E0D0;
+  transition-delay: 0.1s;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.list-inline {
+  padding-left: 0;
+}
+
+.space img  {
+  padding: 10px 5px;
+}
